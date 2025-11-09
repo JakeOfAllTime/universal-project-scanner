@@ -205,3 +205,26 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Node.js ---
+node_modules/
+dist/
+build/
+.next/
+npm-debug.log*
+yarn-*.log*
+
+# --- PowerShell & logs ---
+*.ps1.tmp
+*.log
+
+# --- Project Snapshots (your tool output) ---
+*-snapshot-*.txt
+*-snapshot-*.json
+*-snapshot-*.md
+
+# --- Editors / OS (if not already present) ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
