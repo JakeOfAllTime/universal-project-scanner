@@ -1,4 +1,4 @@
-[README_Universal_Project_Scanner.md](https://github.com/user-attachments/files/23442686/README_Universal_Project_Scanner.md)
+
 # Universal Project Scanner
 
 A lightweight, **project snapshot generator** that inspects a source folder, detects language & stack,
