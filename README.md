@@ -44,3 +44,13 @@ Tip: The default `--output auto` creates a timestamped file: `{folder}-snapshot-
 - Optional redaction rules (e.g., .env)
 - Pluggable detectors via JSON config
 - Hash map of sampled files for diffs across snapshots
+
+
+### Windows / PowerShell notes
+
+On Windows PowerShell you may see a policy error when attempting to run `.ps1` scripts.
+
+**Option A — (recommended)** set a per-user policy (persistent for your user; no admin usually required):
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Confirm:$false
+.\universal-project-scanner.ps1
